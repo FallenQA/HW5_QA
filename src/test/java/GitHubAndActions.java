@@ -18,6 +18,7 @@ public class GitHubAndActions {
         $$(".HeaderMenu-dropdown-link").findBy(text("Enterprise")).click();
         $("div.enterprise-hero").shouldHave(text("Build like the best"));
     }
+
     @Test
     void testDragAndDrop() {
         open("https://the-internet.herokuapp.com/drag_and_drop");
